@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
+    
     <%--Visto en clase 11:--%>
     <div class="container">
         <div class="row">
@@ -19,21 +19,27 @@
                         {
                     %>
                     <tr>
-                        <td><% = art.Nombre %></td>
-                        <td><% = art.Precio %></td>
-                        <td><% = art.Cantidad %></td>
+                        <td><% = art.articulo.Nombre %></td>
+                        <td><% = art.articulo.Precio %></td>       
+                        <td><% = art.Cantidad %></td>    
+                        <%--<td><% = art.Cantidad %></td>--%>
                         <td><a href="Carrito.aspx?idQuitar=<% = art.ID.ToString() %>" class="btn btn-primary">Quitar</a></td>
                     </tr>
 
 
                     <% } %>
                 </table>
-
+                
+                
             </div>
-
+            
+            
+             
         </div>
     </div>
+    
 
+    
 </asp:Content>
 
 

@@ -12,6 +12,7 @@
 
         </nav>
     </div>
+    
     <div class="card-columns" style="margin-left: 10px; margin-right: 10px;">
 
         <div class="container">
