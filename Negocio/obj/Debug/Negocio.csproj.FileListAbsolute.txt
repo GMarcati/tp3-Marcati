@@ -1,0 +1,18 @@
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\bin\Debug\Negocio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\bin\Debug\Dominio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\obj\Debug\Negocio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\bin\Debug\Negocio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\bin\Debug\Dominio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\obj\Debug\Negocio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Negocio\obj\Debug\Negocio.pdb

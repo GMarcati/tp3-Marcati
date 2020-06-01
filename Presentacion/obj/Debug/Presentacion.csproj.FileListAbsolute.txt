@@ -1,0 +1,34 @@
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\bin\Debug\Dominio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\bin\Debug\Dominio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.frmAltaArticulo.resources
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.frmDetallesArticulo.resources
+C:\Users\Gonzalo Marcati\source\repos\TP2_Marcati\Presentacion\obj\Debug\Presentacion.frmCatalogoArticulo.resources
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\bin\Debug\Dominio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\bin\Debug\Dominio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.frmCatalogoArticulo.resources
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.frmAltaArticulo.resources
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.frmDetallesArticulo.resources
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Presentacion\obj\Debug\Presentacion.pdb
