@@ -6,13 +6,11 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 1em; border-radius: 25px;">
 
-            <asp:TextBox runat="server" ID="txtBusqueda" placeholder="Buscar productos" CssClass="form-control mr-sm-2" />
+            <asp:TextBox runat="server" ID="tbxBusqueda" placeholder="Buscar productos" CssClass="form-control mr-sm-2" />
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnBusqueda">Buscar</button>
-
-
         </nav>
     </div>
-    
+
     <div class="card-columns" style="margin-left: 10px; margin-right: 10px;">
 
         <div class="container">
@@ -38,8 +36,6 @@
             <% } %>
         </div>
     </div>
-
-
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

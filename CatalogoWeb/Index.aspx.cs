@@ -12,8 +12,8 @@ namespace CatalogoWeb
     public partial class Index : System.Web.UI.Page
     {
 
-        public List<Articulo> listaArticulo { get; set; }
-
+        public List<Articulo> listaArticulo { get; set; }       
+        public List<Categoria> listaCategorias = new List<Categoria>();
         protected void Page_Load(object sender, EventArgs e)
         {
             try
@@ -29,7 +29,5 @@ namespace CatalogoWeb
                 throw;
             }
         }
-
-
     }
 }

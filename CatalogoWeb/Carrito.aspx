@@ -3,8 +3,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    
-    <%--Visto en clase 11:--%>
+
+    <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-end">
+            Mi carrito de compra
+        (<% = listaCarrito.Count() %>)    
+            
+        </div>
+
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col">
@@ -20,26 +28,40 @@
                     %>
                     <tr>
                         <td><% = art.articulo.Nombre %></td>
-                        <td><% = art.articulo.Precio %></td>       
-                        <td><% = art.Cantidad %></td>    
-                        <%--<td><% = art.Cantidad %></td>--%>
-                        <td><a href="Carrito.aspx?idQuitar=<% = art.ID.ToString() %>" class="btn btn-primary">Quitar</a></td>
+                        <td><% = art.articulo.Precio %></td>
+                        <td><% = art.Cantidad %></td>
+                        <td><a href="Carrito.aspx?idQuitar=<% = art.articulo.ID.ToString() %>" class="btn btn-primary">Quitar</a></td>
                     </tr>
 
 
                     <% } %>
                 </table>
-                
-                
+
+
             </div>
-            
-            
-             
+
+
+
         </div>
     </div>
-    
 
-    
+    <footer>
+        <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end">
+                Total:
+        <% = PrecioTotal %>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
 </asp:Content>
 
 
