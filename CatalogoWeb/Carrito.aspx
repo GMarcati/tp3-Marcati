@@ -45,10 +45,11 @@
         </div>
     </div>
 
+
     <footer>
         <div class="d-flex justify-content-end">
             <div class="d-flex justify-content-end">
-                Total:
+                Total: $
         <% = PrecioTotal %>
             </div>
         </div>

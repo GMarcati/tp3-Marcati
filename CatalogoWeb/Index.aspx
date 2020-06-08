@@ -23,7 +23,7 @@
 
                     <div class="container">
 
-                        <img src="<% = item.ImagenURL %>" class="card-img-top" alt="...">
+                        <img src="<% = item.ImagenURL %>" class="card-img-top" alt="ImagenArticulo">
                         <div class="card-body">
                             <h5 class="card-title"><% = item.Nombre %></h5>
                             <p class="card-text"><% = item.Descripcion %></p>

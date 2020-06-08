@@ -10,6 +10,7 @@
         </div>
         
     </div>
+    <br />
     <a href="Index.aspx" class="btn btn-primary">Volver al inicio</a>
     <p><% = Session["Error" + Session.SessionID] %></p>
 

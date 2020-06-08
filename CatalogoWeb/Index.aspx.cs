@@ -26,7 +26,8 @@ namespace CatalogoWeb
             }
             catch (Exception)
             {
-                throw;
+                Session["Error" + Session.SessionID] = "Error inesperado";
+                Response.Redirect("Error.aspx"); 
             }
         }
     }
