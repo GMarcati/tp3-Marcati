@@ -50,7 +50,7 @@
         <div class="d-flex justify-content-end">
             <div class="d-flex justify-content-end">
                 Total: $
-        <% = PrecioTotal %>
+                    <% = PrecioTotal %>
             </div>
         </div>
 

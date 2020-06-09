@@ -6,7 +6,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">ERROR!</h1>
-            <p class="lead"></p>
+            <p class="lead"><% = Session[Session.SessionID] %></p>
         </div>
         
     </div>

@@ -21,6 +21,7 @@ namespace CatalogoWeb
 
             try
             {
+                //PrecioTotal = Convert.ToDecimal(Session[Session.SessionID + "PrecioTotal"]);
 
                 listaCarrito = (List<Dominio.Carrito>)Session[Session.SessionID + "listaCarrito"];
                 if (listaCarrito == null)
@@ -40,6 +41,7 @@ namespace CatalogoWeb
                     foreach (var item in listaCarrito)
                     {
                         PrecioTotal = item.articulo.Precio - PrecioTotal;
+                        
                     }
                     
 
@@ -63,7 +65,9 @@ namespace CatalogoWeb
                         foreach (var item in listaCarrito)
                         {
                             PrecioTotal += item.articulo.Precio;
+                            
                         }
+                        
 
                         carrito.articulo = articulo;
                         carrito.Cantidad++;
@@ -76,9 +80,9 @@ namespace CatalogoWeb
 
                 }
 
-                
 
-                
+                Session[Session.SessionID + "PrecioTotal"] = PrecioTotal;
+
             }
             catch (Exception)
             {

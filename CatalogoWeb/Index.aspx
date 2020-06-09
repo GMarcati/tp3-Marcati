@@ -6,7 +6,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 1em; border-radius: 25px;">
 
-            <asp:TextBox runat="server" ID="tbxBusqueda" placeholder="Buscar productos" CssClass="form-control mr-sm-2" />
+            <asp:TextBox runat="server" ID="tbxBusqueda" placeholder="Buscar productos por Nombre/Marca" CssClass="form-control mr-sm-2" OnTextChanged="tbxBusqueda_TextChanged" />
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnBusqueda">Buscar</button>
         </nav>
     </div>
@@ -22,10 +22,10 @@
                 <div class="card" style="width: 18rem;">
 
                     <div class="container">
-
+                        
                         <img src="<% = item.ImagenURL %>" class="card-img-top" alt="ImagenArticulo">
                         <div class="card-body">
-                            <h5 class="card-title"><% = item.Nombre %></h5>
+                            <h5 class="card-title"><% = item.Nombre %> (<% = item.Marca %>)</h5>
                             <p class="card-text"><% = item.Descripcion %></p>
                             <a href="Carrito.aspx?idart=<% = item.ID.ToString() %>" class="btn btn-primary">Agregar al carrito</a>
                         </div>
@@ -36,6 +36,8 @@
             <% } %>
         </div>
     </div>
+
+
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
