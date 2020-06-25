@@ -25,9 +25,6 @@ namespace CatalogoWeb
 
                 Session[Session.SessionID + "listaArticulo"] = listaArticulo;
 
-
-
-
             }
             catch (Exception)
             {

@@ -10,3 +10,9 @@ C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Dominio\obj\Debug\Dom
 C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Dominio\obj\Debug\Dominio.dll
 C:\Users\Gonzalo Marcati\source\repos\TP4_Marcati - Desde0\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP3_Marcati - Entregado en GITHUB\Dominio\bin\Debug\Dominio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP3_Marcati - Entregado en GITHUB\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Gonzalo Marcati\source\repos\TP3_Marcati - Entregado en GITHUB\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Gonzalo Marcati\source\repos\TP3_Marcati - Entregado en GITHUB\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo Marcati\source\repos\TP3_Marcati - Entregado en GITHUB\Dominio\obj\Debug\Dominio.dll
+C:\Users\Gonzalo Marcati\source\repos\TP3_Marcati - Entregado en GITHUB\Dominio\obj\Debug\Dominio.pdb

@@ -4,14 +4,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="d-flex justify-content-end">
-        <div class="d-flex justify-content-end">
-            Mi carrito de compra
-        (<% = listaCarrito.Count() %>)    
-            
+   <div class="d-flex justify-content-end" style="nav-down:auto" >
+        <div class="d-flex justify-content-end ">
+            <button type="button" class="btn btn-primary  badge-pill">
+                Mi carrito de compra <span class="badge badge-light">(<% = listaCarrito.Count() %>)  </span>
+                <span class="sr-only">Cantidad producto carrito</span>
+            </button>
         </div>
-
     </div>
+
+
 
     <div class="container">
         <div class="row">
@@ -50,7 +52,9 @@
         <div class="d-flex justify-content-end">
             <div class="d-flex justify-content-end">
                 Total: $
-                    <% = PrecioTotal %>
+                   
+                <% = PrecioTotal %>
+                <% = Session[Session.SessionID + "PrecioTotal"]  %>
             </div>
         </div>
 

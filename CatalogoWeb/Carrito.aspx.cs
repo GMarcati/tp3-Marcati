@@ -21,8 +21,6 @@ namespace CatalogoWeb
 
             try
             {
-                //PrecioTotal = Convert.ToDecimal(Session[Session.SessionID + "PrecioTotal"]);
-
                 listaCarrito = (List<Dominio.Carrito>)Session[Session.SessionID + "listaCarrito"];
                 if (listaCarrito == null)
                     listaCarrito = new List<Dominio.Carrito>();
@@ -36,14 +34,14 @@ namespace CatalogoWeb
 
                     listaCarrito.Remove(articuloQuitar);
 
-                        Session[Session.SessionID + "listaCarrito"] = listaCarrito;
+                    Session[Session.SessionID + "listaCarrito"] = listaCarrito;
 
                     foreach (var item in listaCarrito)
                     {
                         PrecioTotal = item.articulo.Precio - PrecioTotal;
-                        
+
                     }
-                    
+
 
 
 
@@ -58,16 +56,16 @@ namespace CatalogoWeb
                     var artSeleccionado = Convert.ToInt32(Request.QueryString["idart"]);
                     Articulo articulo = listaOriginal.Find(J => J.ID == artSeleccionado);
 
-                    Dominio.Carrito auxCarrito = listaCarrito.Find(B => B.articulo.ID == articulo.ID);                                
+                    Dominio.Carrito auxCarrito = listaCarrito.Find(B => B.articulo.ID == articulo.ID);
 
                     if (auxCarrito == null)
                     {
                         foreach (var item in listaCarrito)
                         {
                             PrecioTotal += item.articulo.Precio;
-                            
+
                         }
-                        
+
 
                         carrito.articulo = articulo;
                         carrito.Cantidad++;
@@ -81,7 +79,6 @@ namespace CatalogoWeb
                 }
 
 
-                Session[Session.SessionID + "PrecioTotal"] = PrecioTotal;
 
             }
             catch (Exception)

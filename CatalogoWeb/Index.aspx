@@ -11,29 +11,35 @@
         </nav>
     </div>
 
-    <div class="card-columns" style="margin-left: 10px; margin-right: 10px;">
+    <div class="columns " style="margin-left: 10px; margin-right: 10px;">
 
-        <div class="container">
-            <% foreach (var item in listaArticulo)
-                { %>
+        <div class="card-deck">
+            <div class="row row-cols-1 row-cols-md-3">
+                <% foreach (var item in listaArticulo)
+                    { %>
 
-            <div class="container">
+                <div class="col mb-4">
 
-                <div class="card" style="width: 18rem;">
+                    <div class="card h-100 border-dark mb-3 text-center" style="margin-left: 10px; margin-right: 10px;">
 
-                    <div class="container">
-                        
+
                         <img src="<% = item.ImagenURL %>" class="card-img-top" alt="ImagenArticulo">
+
+
                         <div class="card-body">
-                            <h5 class="card-title"><% = item.Nombre %> (<% = item.Marca %>)</h5>
-                            <p class="card-text"><% = item.Descripcion %></p>
+                            <h5 class="card-title"><% = item.Nombre %></h5>
+                            <p class="card-text"><small class="text-muted"><% = item.Descripcion %></small></p>
+                            <h6 class="card-subtitle mb-2 text-muted">$<% = item.Precio %></h6>
+                        </div>
+                        <div class="card-footer">
                             <a href="Carrito.aspx?idart=<% = item.ID.ToString() %>" class="btn btn-primary">Agregar al carrito</a>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <% } %>
+                    </div>
+
+                </div>
+                <% } %>
+            </div>
         </div>
     </div>
 
